@@ -13,19 +13,18 @@ This is a backend implementation of a Todo App using FastAPI. It provides RESTfu
 
 ## Installation
 1. Clone the repository:
-git clone https://github.com/your-username/Todo_App_Backend_FastAPI.git
-
-cd Todo_App_Backend_FastAPI
+- git clone https://github.com/your-username/Todo_App_Backend_FastAPI.git
+- cd Todo_App_Backend_FastAPI
 
 3. Create a virtual environment and activate it:
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+- python -m venv venv
+- source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
 4. Install the required dependencies:
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 5. Start the FastAPI server:
-uvicorn main:app --reload
+- uvicorn main:app --reload
 
 ## API Endpoints
 User Registration: POST /auth/
