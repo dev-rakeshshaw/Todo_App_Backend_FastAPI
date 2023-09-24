@@ -1,13 +1,15 @@
-# Todo_App_Backend_FastAPI
+# Todo App Backend FastAPI
+
 This is a backend implementation of a Todo App using FastAPI. It provides RESTful API endpoints for managing user authentication, creating, reading, updating, and deleting todos. The app includes features for user authentication, role-based authorization, and password change functionality.
 
-Features
-User Authentication: Users can register, log in, and obtain access tokens for secure API access.
-Role-Based Authorization: The app supports two user roles: "admin" and "user". Admin users have additional privileges, such as managing all todos.
-Todo Management: Users can create, read, update, and delete their own todos.
-Password Change: Users can change their passwords securely.
-Data Persistence: Todos and user data are stored in a SQLite database.
-Validation: API requests are validated using Pydantic models, ensuring data integrity.
+## Features
+
+- **User Authentication**: Users can register, log in, and obtain access tokens for secure API access.
+- **Role-Based Authorization**: The app supports two user roles: "admin" and "user". Admin users have additional privileges, such as managing all todos.
+- **Todo Management**: Users can create, read, update, and delete their own todos.
+- **Password Change**: Users can change their passwords securely.
+- **Data Persistence**: Todos and user data are stored in a SQLite database.
+- **Validation**: API requests are validated using Pydantic models, ensuring data integrity.
 
 ## Installation
 1. Clone the repository:
